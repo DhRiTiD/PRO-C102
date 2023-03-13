@@ -28,7 +28,7 @@ elif file_type == 'mp3':
 elif file_type == 'mp4':
     ext_list = ['.mp4']
 elif file_type == 'all':
-    ext_list = ['.gif', '.png', '.jpg', '.jpeg','.jfif', '.txt', '.pdf', '.doc', '.docx', '.mp3', '.mp4']
+    ext_list = ['.gif', '.png', '.jpg', '.jpeg','.jfif', '.txt', '.pdf', '.doc', '.docx', '.mp3', '.mp4', '.py', '.xlsx']
 
 
 list_of_items = os.listdir(from_dir)
